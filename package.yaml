@@ -1,0 +1,17 @@
+spec-version: 0.35.1
+name: east-gate
+version: 0.1.0.0
+ghc-options:
+- -Wall
+language: GHC2021
+dependencies:
+- base >= 4.12 && < 5
+- xmonad
+- xmonad-contrib
+- containers
+- prometheus
+- text
+
+library:
+  source-dirs: src
+  generated-other-modules: Paths_east_gate
